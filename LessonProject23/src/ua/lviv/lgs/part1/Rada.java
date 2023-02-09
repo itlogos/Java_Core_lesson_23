@@ -21,32 +21,6 @@ public final class Rada {
 
     ArrayList<Faction> radaArray = new ArrayList<Faction>();
 
-//    public void addAllDeputyToFaction() {
-//        Iterator<Faction> iterator = radaArray.iterator();
-//
-//        while (iterator.hasNext()) {
-//            Faction fakty = iterator.next();
-//            if (fakty.getFactionName().equals("Green")) {
-//                fakty.addAllDeputy("Petrenko", "Igor");
-//                fakty.addAllDeputy("Semenenko", "Ulia");
-//                fakty.addAllDeputy("Mavenko", "Oleg");
-//                fakty.addAllDeputy("Sonko", "Aleks");
-//            }
-//            if (fakty.getFactionName().equals("White")) {
-//                fakty.addAllDeputy("Savchenko", "Oleg");
-//                fakty.addAllDeputy("Poronko", "Aleks");
-//            }
-//            if (fakty.getFactionName().equals("Neutral")) {
-//                fakty.addAllDeputy("Franko", "Igor");
-//                fakty.addAllDeputy("Drim", "Luda");
-//            }
-//        }
-//        System.out.println(" Before :\n Fractions registered in Verkhona Rada:");
-//        for (Faction facty : radaArray) {
-//            System.out.println("Faction - " + facty);
-//            facty.getAllDeputies();
-//        }
-//    }
 
     public void addAllDeputyToFaction() {
  
